@@ -1,0 +1,102 @@
+/* Apple-style soft color palette and layout */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background: linear-gradient(to right, #e8edf3, #f8fbfd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#app {
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+    padding: 35px 45px;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 420px;
+    width: 90%;
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    text-align: left;
+    color: #333;
+    font-weight: 500;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 12px 14px;
+    margin: 10px 0 20px 0;
+    font-size: 1rem;
+    border: 1px solid #d0d7de;
+    border-radius: 10px;
+    background-color: #f9fafa;
+    color: #333;
+    transition: border-color 0.2s ease-in-out;
+}
+
+select:focus,
+input:focus {
+    outline: none;
+    border-color: #007aff;
+    background-color: #ffffff;
+}
+
+button {
+    padding: 12px 22px;
+    margin: 5px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005fc1;
+}
+
+button.clear-btn {
+    background-color: #e63946;
+}
+
+button.clear-btn:hover {
+    background-color: #c82333;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    min-height: 30px;
+}
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    font-size: 20px;
+    color: #000000; /* Black color */
+    opacity: 1.0;    /* Still subtle */
+    font-family: monospace;
+    user-select: none;
+}

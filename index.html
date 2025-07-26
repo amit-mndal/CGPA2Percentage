@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CGPA ↔ Percentage Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="app">
+  <h1>CGPA ↔ Percentage Converter</h1>
+
+  <label for="university">Select University:</label>
+  <select id="university">
+    <option value="" disabled selected>Select the University</option>
+    <option value="AMITY">Amity University</option>
+    <option value="BITS">BITS Pilani</option>
+    <option value="CU-PG">Calcutta University(CU)-PG</option>
+    <option value="CU-UG">Calcutta University(CU)-UG</option>
+    <option value="GU">Gujarat University</option>
+    <option value="IITB">IIT Bombay</option>
+    <option value="IITD">IIT Delhi</option>
+    <option value="IITKGP">IIT Kharagpur</option>
+    <option value="IITM">IIT Madras</option>
+    <option value="ISI">Indian Statistical Institute</option>
+    <option value="JADAVPUR">Jadavpur University</option>
+    <option value="KALYANI">Kalyani University</option>
+    <option value="MAKAUT">MAKAUT</option>
+    <option value="NITDGP">NIT Durgapur</option>
+    <option value="UGB">University of Gour Banga</option>
+    <option value="VIT">VIT Vellore</option>
+  </select>
+
+  <div class="input-section">
+    <input type="number" id="inputValue" placeholder="Enter value" step="0.01" />
+    <select id="conversionType">
+      <option value="cgpa-to-percent">CGPA → Percentage</option>
+      <option value="percent-to-cgpa">Percentage → CGPA</option>
+    </select>
+  </div>
+
+  <button onclick="convert()">Convert</button>
+  <button onclick="clearFields()" class="clear-btn">Clear</button>
+
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+<div class="footer">am.</div>
+
+</body>
+</html>
