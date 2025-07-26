@@ -1,1 +1,1 @@
-# CGPA2Percentage
+# CGPA to Percentage and vice versa
