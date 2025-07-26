@@ -4,4 +4,4 @@
 
 Try it out at - https://gradesync.netlify.app/
 
-![alt text](image-1.png)
+![alt text](image.png)
