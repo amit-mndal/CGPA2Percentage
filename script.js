@@ -4,7 +4,7 @@ function convert() {
     const inputValue = parseFloat(document.getElementById("inputValue").value);
     const resultDiv = document.getElementById("result");
 
-    // Reset result
+  
     resultDiv.textContent = "";
 
     if (university === "") {
