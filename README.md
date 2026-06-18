@@ -20,7 +20,6 @@ One of the biggest challenges students face is that every university follows its
 - Instant conversion results
 - Easy to use and accessible from any device
 
-
 ---
 
 ## 🎯 Why GradeSync?
