@@ -3,7 +3,6 @@ function convert() {
     const conversionType = document.getElementById("conversionType").value;
     const inputValue = parseFloat(document.getElementById("inputValue").value);
     const resultDiv = document.getElementById("result");
-
   
     resultDiv.textContent = "";
 
